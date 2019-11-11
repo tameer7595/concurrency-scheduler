@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/tameer/CLionProjects/Scheduler/itask.h
+iostream
+-
+ctime
+-
+sys/time.h
+-
+unistd.h
+-
+
+/home/tameer/CLionProjects/Scheduler/scheduler.cpp
+scheduler.h
+/home/tameer/CLionProjects/Scheduler/scheduler.h
+sys/time.h
+-
+unistd.h
+-
+
+/home/tameer/CLionProjects/Scheduler/scheduler.h
+iostream
+-
+vector
+-
+itask.h
+/home/tameer/CLionProjects/Scheduler/itask.h
+
